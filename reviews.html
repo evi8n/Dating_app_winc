@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<header>
+  <h1> Reviews </h1>
+  <p> ...from people who don't exist </p>
+</header>
+
+<body>
+  <h4> Maria Golbasar - 12/01/2023</h4>
+  <p> I like pokemon a lot but this app is good </p>
+
+  <h4> Dating Fan - 19/02/2023</h4>
+  <p> Maria I also like pokemon do you want to go out? </p>
+
+  <h4> Maria Golbasar - 30/03/2023</h4>
+  <p> Leave me alone dating fan I don't want to see you anymore </p>
+
+  <main>
+    <h2>Leave a Review</h2>
+    <form action="process_review.php" method="POST">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Your Name"><br><br>
+
+      <label for="review">Your Review:</label><br>
+      <textarea id="review" name="review" rows="4" cols="50" required
+        placeholder="Type your review here"></textarea><br><br>
+
+      <input type="submit" value="Submit Review">
+    </form>
+  </main>
+
+  <nav>
+    <a href="index.html">
+      <button type="button" name="home">Go to Home</button>
+    </a>
+    <a href="people.html">
+      <button type="button" name="people">Meet the People</button>
+    </a>
+    <a href="sign_up.html">
+      <button type="button" name="sign_up">Sign Up</button></a>
+  </nav>
+
+  <footer>
+    <p>&copy; 2023 Winc Winc Dating by Evi</p>
+  </footer>
+</body>
+
+</html>
